@@ -1,0 +1,60 @@
+Anotações
+ Created on: 3 de mai de 2020
+     Author: lucas.rodrigues
+
+
+Fila: é uma estrutura usada para armazenar uma coleção de dados, onde todo o elemento que entra, sempre vai entrar 
+no final, o primeiro elemento que entra, é o primeiro que sai, os dados saão manipulados por operações
+
+create - criar a fila vazia
+iserir - inserir o elemento no final
+isEmpty - verifica se a fila está vazia
+isFull - verifica se a fila está cheia(Caso tenha uma capacidade maxima de trabalho)
+retirar - retirar o elemento no inicio da fila
+
+Na fila eu tenho 2 apontadores:
+1 apontador indica quem está no inicio da fila
+2 apontador indica quem está no final da fila
+
+Quando a fila esta vazia, os dois apontadores apontam para o mesmo lugar
+Quabndo meu apontador sai da ultima posição do vetor ele deve ir para a primeira de novo.
+Quando a fila esta cheia, incio e fim apontam apra o memso lugar
+Quando a fila esta vazia, incio e fim apontam apra o memso lugar
+
+Para resolver esse prolema, cria-se uma variavel chamada total, onde a mesma ira controla se a fila esta cheia ou vazia
+
+Todo numero de 1 a 9 dividido por 10, o resto vai ser o proprio número
+
+first in first out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+).
